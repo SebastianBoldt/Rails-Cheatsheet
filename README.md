@@ -11,10 +11,15 @@ Ruby on Rails Cheatsheet
 | gem list --local rails | show local rails installations |
 
 ### Server
+
 | Command | Description |
 | ----------- | ----------- |
 | rails about | Information about current rails installtion |
 | rails server | Start local server on locahost:3000 |
 | rails server .b 0.0.0.0 | Bind server to 0.0.0.0 |
 
+### Helper
 
+| Command | Description |
+| ----------- | ----------- |
+| rails generate controller Say hello  | Creates Controller, Views, Routing and assets |
